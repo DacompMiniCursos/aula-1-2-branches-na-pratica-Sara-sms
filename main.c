@@ -24,7 +24,21 @@ int main() {
     printf("CURSO: %s", curso);
     printf("IDADE %d\n", idade);
 
+    char email [100];
+    char github[50];
+
+
+    printf("Digite seu email:\n");
+    fgets(email, 50, stdin); 
+
+    printf("Digite o user do seu github:\n");
+    fgets(github, 50, stdin); 
+
     
+    printf("[[[ CONTATO USUARIO ]]]");
+    printf("\nEMAIL: %s", email);
+    printf("GITHUB: %s", github);
 
     return 0;
 }
+
